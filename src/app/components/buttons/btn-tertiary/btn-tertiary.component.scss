@@ -1,0 +1,68 @@
+$tertiary: transparent;
+$tertiary-hover: transparent;
+$tertiary-border-focus: #D9CDF7;
+$white: white;
+
+
+
+.tertiary {
+    background-color: $tertiary;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 24px;
+
+    &:hover {
+        background-color: $tertiary-hover;
+    }
+
+    &:focus {
+        outline: 2px solid $tertiary-border-focus;
+    }
+
+    &:disabled {
+        opacity: 0.56;
+        cursor: not-allowed;
+    }
+}
+
+.loading {
+    cursor: progress;
+
+    i {
+        font-size: 16px;
+        animation: spin 1200ms infinite linear;
+    }
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.movable {
+    background-color: $tertiary;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 24px;
+    cursor: move;
+
+    &:hover {
+        background-color: $tertiary-hover;
+    }
+
+    &:focus {
+        outline: 2px solid $tertiary-border-focus;
+    }
+
+    &:disabled {
+        opacity: 0.56;
+        cursor: not-allowed;
+    }
+}
