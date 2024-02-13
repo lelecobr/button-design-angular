@@ -16,7 +16,7 @@ Responsive design for good user experience across devices.
 
 
 ## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on GitHub.
+Contributions are welcome! If you note an error or have suggestions for improvement, please submit a pull request or email me.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
